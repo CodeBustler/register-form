@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+  text-decoration: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url('https://i.postimg.cc/1XcsNXNx/blob-scene-haikei-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-container {
+  color: white;
+  width: 380px;
+  background-color: rgba(255, 255, 255, 0.137);
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name input {
+  width: 48%;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+input[type='checkbox'] {
+  accent-color: rgb(5, 211, 183);
+  width: 15px;
+  height: 15px;
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+}
+.terms a {
+  color: rgb(5, 211, 183);
+}
+
+button {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  background-color: rgb(5, 211, 183);
+  color: rgba(0, 0, 0, 0.699);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(8, 204, 178);
+}
+
+button:active {
+  background-color: rgb(45, 241, 215);
+}
+
+footer a {
+  color: white;
+}
